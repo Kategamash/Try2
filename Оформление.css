@@ -1,0 +1,44 @@
+body{
+    background-color: #CEA27A;
+}
+
+.zag {
+    text-align: center;
+    border-color: #745131;
+    border-style: outset;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.kon{
+    border-color: #745131;
+    border-top-style: outset;
+}
+
+.men{
+    text-align: left;
+    width: 125px;
+    border: #745131 outset;
+    border-radius: 6px;
+}
+
+a{
+    color: #412003;
+    outline: none;
+    text-decoration: none;
+}
+a:link{
+    color: #66360C;
+    outline: none;
+    text-decoration: none;
+}
+a:focus {
+    color: #66360C;
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    color: #66360C;
+    outline: none;
+    text-decoration: none;
+}
