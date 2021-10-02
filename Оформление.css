@@ -18,7 +18,6 @@ body{
     padding-top: 6px;
     border-top-style: solid;
     border-right-style: solid;
-    background-color: ;
     position: fixed;
     top: 94%;
     left: 0%;
@@ -27,7 +26,6 @@ body{
 .men{
     background-color: #FFE5AB;
     display: block;
-    background-color: ;
     text-align: center;
     border: solid;
     width: 125px;
