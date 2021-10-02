@@ -1,44 +1,63 @@
 body{
-    background-color: #CEA27A;
+    background-color: #FFF0D1;
 }
 
 .zag {
     text-align: center;
-    border-color: #745131;
     border-style: outset;
     border-radius: 6px;
     font-size: 20px;
+    background-color: #FFE5AB;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .kon{
-    border-color: #745131;
-    border-top-style: outset;
+    background-color: #FFE5AB;
+    padding-right: 5px;
+    padding-top: 6px;
+    border-top-style: solid;
+    border-right-style: solid;
+    background-color: ;
+    position: fixed;
+    top: 94%;
+    left: 0%;
 }
 
 .men{
-    text-align: left;
+    background-color: #FFE5AB;
+    display: block;
+    background-color: ;
+    text-align: center;
+    border: solid;
     width: 125px;
-    border: #745131 outset;
-    border-radius: 6px;
+    position: sticky;
+    top: 1%;
+    float: right;
+    margin: 0;
 }
 
 a{
-    color: #412003;
+    color: black;
     outline: none;
     text-decoration: none;
 }
 a:link{
-    color: #66360C;
+    color: black;
     outline: none;
     text-decoration: none;
 }
 a:focus {
-    color: #66360C;
+    color: rgba(119, 136, 153, 0.521);
     outline: none;
     text-decoration: none;
 }
 a:hover {
-    color: #66360C;
+    color: rgba(119, 136, 153, 0.521);
     outline: none;
     text-decoration: none;
+}
+
+img {
+    border: 2px solid;
 }
