@@ -1,0 +1,102 @@
+.main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    margin: 1%;
+    padding: 5px;
+}
+
+nav{
+    float: right;
+    margin: 1%;
+}
+nav ul{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.hc{
+    width: 100%;
+    position: sticky;
+    top: 1%;
+}
+
+.hc:after, .raw:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kon{
+    position: fixed;
+    width: 98%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-top: 5px;
+    top: 96%
+}
+
+.rec{
+    margin-top: 2%;
+}
+
+.item{
+    margin-top: 1%;
+    width: 45%;
+}
+
+.op{
+    position: relative;
+    width: 400px;
+    margin-bottom: 70%;
+}
+
+.var{
+    height: 1080px;
+}
+.var ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.opm{
+    margin-top: 1%;
+}
+
+.frm{
+    margin-top: 1%;
+    width: 40%;
+}
+
+.kr{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.opl{
+    position: relative;
+    width: auto;
+    margin-bottom: 49%;
+}
+
+.opv{
+    position: relative;
+    width: auto;
+    margin-bottom: 22%;
+}
+
+.oplg{
+    position: relative;
+    width: auto;
+    margin-bottom: 60%;
+}
