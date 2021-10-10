@@ -38,10 +38,11 @@ nav li{
 
 .kon{
     position: fixed;
-    width: 98%;
+    width: 100%;
     padding-bottom: 1%;
     padding-left: 1%;
     padding-top: 5px;
+    left: -5px;
     top: 96%
 }
 
@@ -51,13 +52,14 @@ nav li{
 
 .item{
     margin-top: 1%;
-    width: 45%;
+    width: auto;
+    max-width: 700px;
 }
 
 .op{
     position: relative;
-    width: 400px;
-    margin-bottom: 70%;
+    width: auto;
+    margin-bottom: 250px;
 }
 
 .var{
@@ -73,9 +75,10 @@ nav li{
     margin-top: 1%;
 }
 
-.frm{
+form{
     margin-top: 1%;
-    width: 40%;
+    width: auto;
+    max-width: 600px;
 }
 
 .kr{
@@ -92,11 +95,11 @@ nav li{
 .opv{
     position: relative;
     width: auto;
-    margin-bottom: 22%;
+    height: auto;
 }
 
 .oplg{
     position: relative;
     width: auto;
-    margin-bottom: 60%;
+    margin-bottom: 180px;
 }
