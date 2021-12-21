@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="Оформление.css">
+    <link rel="stylesheet" type="text/css" href="Разметка.css">
     <meta charset="UTF-8">
     <title>VPM-SP</title>
 </head>
 <body>
-    Магазин: <strong> ВСЕ ПО МЕЛОЧИ </strong> <br>
-    <hr>
-    <a href="Главная.html"> Меню </a> <br>
-    <a href="Товары.html"> Список Товаров </a> <br>
-    <a href="омаг.html"> О нас </a> <br>
-    <hr>
-    Наши товары: <br>
-    <ul>
-        <li><strong>ЛОПАТА ЛОПАТНАЯ</strong>. Цена: 1.500 рублей. <a href="Лопата.html"> Подробнее </a> <br>
-            <img src="лопата.jpg" alt="Не найдено" width="500px"> <br>
-            <br><br>
-        </li>
-        <li>Услуги <strong>VladDragonGames</strong> по созданию сайта. Цена: 15.000 рублей. <a href="услугиВ.html"> Подробнее </a> <br>
-            <img src="мозг.jpg" alt="Не найдено" width="500px"> <br>
-            <br><br>
-        </li>
-        <li>Лягушечка. Цена: 500 рублей. <a href="Ляг.html"> Подробнее </a> <br>
-            <img src="ляг1.jpg" alt="Не найдено" width="500px"> <br>
-            <br>
-        </li>
-    </ul>
-    <hr>
-    Контакты:
-     Почта-vCtPOmelch@gmail.ru Телефон: 8-800-000-00-00
+
+    <header>
+        <div class="hc">
+            <p class="logo">
+                <strong>ВПМ</strong>
+            </p>
+            <nav>
+                <ul>
+                    <li><a href="Главная.html"> Меню </a></li>
+                    <li><a href="Товары.html"> Список Товаров</a></li>
+                    <li><a href="омаг.html"> О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="var">
+            <div class="rec">
+                Наши товары:
+            </div> 
+            <ul>
+                <li>
+                    <div class="item">
+                        <table>
+                            <tr>
+                                <td><img src="лопата.jpg" alt="Не найдено"></td> 
+                                <td>
+                                    <div class="op">
+                                        <strong>ЛОПАТА ЛОПАТНАЯ</strong>. <br>
+                                        Цена: 1.500 рублей. <a href="Лопата.html"> <button> Подробнее </button> </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li>   
+                    <div class="item">
+                        <table>
+                            <tr>
+                                <td><img src="мозг.jpg" alt="Не найдено"></td>
+                                <td>
+                                    <div class="op">
+                                        Услуги <strong>VladDragonGames</strong> по созданию сайта. <br>
+                                        Цена: 15.000 рублей. <a href="услугиВ.html"> <button> Подробнее </button> </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <table>
+                            <tr>
+                                <td><img src="ляг1.jpg" alt="Не найдено"></td>
+                                <td>
+                                    <div class="op">
+                                    Лягушечка. <br>
+                                    Цена: 500 рублей. <a href="Ляг.html"> <button> Подробнее </button> </a> 
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="kon">
+            Контакты: Почта-vCtPOmelch@gmail.ru Телефон: 8-800-000-00-00
+        </div>
+    </footer>
+    
 </body>
 </html>
